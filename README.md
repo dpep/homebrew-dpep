@@ -20,7 +20,7 @@ brew install <formula>
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
 
 
-## How to develop locally
+## Local Development
 
 Create symlink to Taps directory
 ```
@@ -36,3 +36,6 @@ Lint changes
 ```
 brew audit --eval-all
 ```
+
+Resources
+- https://docs.brew.sh/Formula-Cookbook
