@@ -31,3 +31,8 @@ Install local formula
 ```
 brew install dpep/dpeptest/<formula>
 ```
+
+Lint changes
+```
+brew audit --eval-all
+```
