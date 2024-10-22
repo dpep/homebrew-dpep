@@ -2,8 +2,8 @@ class DpepCommon < Formula
   desc "Common utilities"
   homepage "https://github.com/dpep/homebrew-dpep/blob/main/README.md"
   url "https://github.com/dpep/homebrew-dpep.git", branch: "main"
-  license "MIT"
   version "0.0.1"
+  license "MIT"
 
   %w[
     direnv
@@ -12,6 +12,7 @@ class DpepCommon < Formula
     gh
     git
     go
+    gpg
     jemalloc
     jq
     mysql-client

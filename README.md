@@ -24,12 +24,12 @@ brew install <formula>
 
 Create symlink to Taps directory
 ```
-ln -s /path/to/local/homebrew-dpep `brew --repo`/Library/Taps/dpep/homebrew-dpeptest
+ln -s /path/to/local/homebrew-dpep `brew --repo`/Library/Taps/dpep/homebrew-test
 ```
 
 Install local formula
 ```
-brew install dpep/dpeptest/<formula>
+brew install dpep/test/<formula>
 ```
 
 Lint changes
