@@ -43,6 +43,7 @@ class DpepCommon < Formula
   ]
 
   CASKS = %w[
+    flux
     jumpcut
     visual-studio-code
   ]
@@ -52,6 +53,8 @@ class DpepCommon < Formula
 
     puts "brew install --cask #{CASKS.join(" ")}"
     puts
+    puts "open -a Flux"
+    puts "open -a Jumpcut"
 
     puts "gem install #{GEMS.join(" ")}"
     puts
